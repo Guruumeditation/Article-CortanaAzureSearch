@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>c:\equinoxe consulting\developement\articles\cortanaazuresearchpresidents\cortanaazuresearchpresidents\indexservices.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\equinoxe consulting\developement\articles\cortanaazuresearchpresidents\cortanaazuresearchpresidents\presidents.json</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\equinoxe consulting\developement\articles\cortanaazuresearchpresidents\model\president.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\equinoxe consulting\developement\articles\cortanaazuresearchpresidents\presidentsservice\project.json</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\equinoxe consulting\developement\articles\cortanaazuresearchpresidents\presidentsservice\presidentsservice.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\equinoxe consulting\developement\articles\cortanaazuresearchpresidents\cortanaazuresearchpresidents\presidents_vcd.xml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Equinoxe Consulting\Developement\Articles\CortanaAzureSearchPresidents\CortanaAzureSearchPresidents\Strings\fr\Resources.resw</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

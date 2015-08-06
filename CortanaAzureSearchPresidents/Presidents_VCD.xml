@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en" Name="Presidents_CommandSet_en">
+    <AppName>Presidents</AppName>
+    <Example>Presidents, who was president in 1990 ?</Example>
+
+    <Command Name="whichPresidentYear">
+      <Example>who was president in 1990 ?</Example>
+      <ListenFor RequireAppName="BeforePhrase">  who was president in {year}</ListenFor>
+      <Feedback> Looking for president in {year} </Feedback>
+      <VoiceCommandService Target="PresidentsService"/>
+    </Command>
+
+    <Command Name="showTerm">
+      <Example> Show terms of Lincoln </Example>
+      <ListenFor RequireAppName="BeforePhrase"> Show term of {president}</ListenFor>
+      <Feedback> Showing the terms of {president}</Feedback>
+      <VoiceCommandService Target="PresidentsService"/>
+    </Command>
+
+    <PhraseTopic Label="year" Scenario="Search"/>
+    <PhraseTopic Label="president" Scenario="Search"/>
+  </CommandSet>
+
+  <CommandSet xml:lang="FR" Name="Presidents_CommandSet_FR">
+    <AppName>Presidents</AppName>
+    <Example>Presidents, qui était président en 1923 ?</Example>
+
+    <Command Name="whichPresidentYear">
+      <Example>qui était président en 1923 ?</Example>
+      <ListenFor RequireAppName="BeforePhrase"> Qui était président en {year}</ListenFor>
+      <Feedback> Un instant, je cherche </Feedback>
+      <VoiceCommandService Target="PresidentsService"/>
+    </Command>
+
+    <Command Name="showTerm">
+      <Example> Mandat de Lincoln </Example>
+      <ListenFor RequireAppName="BeforePhrase"> Mandat de {president}</ListenFor>
+      <Feedback> Un instant, je cherche le mandat de {president}</Feedback>
+      <VoiceCommandService Target="PresidentsService"/>
+    </Command>
+    <PhraseTopic Label="year" Scenario="Search"/>
+    <PhraseTopic Label="president" Scenario="Search"/>
+  </CommandSet>
+</VoiceCommands>
+
